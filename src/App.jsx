@@ -30,7 +30,7 @@ function App() {
       {inputIsValid ? (
         <Results input={userInput} />
       ) : (
-        <p>Pleas enter a duration greater then zero.</p>
+        <p className="center">Pleas enter a duration greater then zero.</p>
       )}
     </>
   );
